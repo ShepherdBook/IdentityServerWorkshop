@@ -45,19 +45,12 @@ namespace WebClient
                     .AddCookie("Cookies")
                     .AddOpenIdConnect("oidc", options =>
                     {
-                        //options.SignInScheme = "Cookies";
                         options.Authority = "http://localhost:5000";
                         options.RequireHttpsMetadata = false;
 
                         options.ClientId = "WebClient";
                         options.ClientSecret = "secretKey";
                         options.SaveTokens = true;
-
-                        //options.Scope.Clear();
-                        //foreach (var scope in openIdConfig.Scope.Split(' '))
-                        //{
-                        //    options.Scope.Add(scope);
-                        //}
                     });
         }
 
