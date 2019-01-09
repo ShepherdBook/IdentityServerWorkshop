@@ -1,0 +1,11 @@
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityResourceClient/bin/Debug/netcoreapp2.2/IdentityResourceClient.deps.json
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityResourceClient/bin/Debug/netcoreapp2.2/IdentityResourceClient.runtimeconfig.json
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityResourceClient/bin/Debug/netcoreapp2.2/IdentityResourceClient.runtimeconfig.dev.json
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityResourceClient/bin/Debug/netcoreapp2.2/IdentityResourceClient.dll
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityResourceClient/bin/Debug/netcoreapp2.2/IdentityResourceClient.pdb
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityResourceClient/obj/Debug/netcoreapp2.2/IdentityResourceClient.csprojAssemblyReference.cache
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityResourceClient/obj/Debug/netcoreapp2.2/IdentityResourceClient.csproj.CoreCompileInputs.cache
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityResourceClient/obj/Debug/netcoreapp2.2/IdentityResourceClient.AssemblyInfoInputs.cache
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityResourceClient/obj/Debug/netcoreapp2.2/IdentityResourceClient.AssemblyInfo.cs
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityResourceClient/obj/Debug/netcoreapp2.2/IdentityResourceClient.dll
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityResourceClient/obj/Debug/netcoreapp2.2/IdentityResourceClient.pdb

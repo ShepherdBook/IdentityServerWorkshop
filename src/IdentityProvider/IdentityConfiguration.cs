@@ -8,7 +8,11 @@ namespace IdentityProvider
     {
         public static IEnumerable<IdentityResource> GetIdentityResources()
         {
-            return Enumerable.Empty<IdentityResource>();
+            return new List<IdentityResource>
+            {
+                new IdentityResources.OpenId(),
+                new IdentityResources.Profile()
+            };
         }
 
         public static IEnumerable<ApiResource> GetApis()
@@ -34,6 +38,17 @@ namespace IdentityProvider
                     },
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     AllowedScopes = { "apiResource" }
+                },
+                new Client
+                {
+                    ClientId = "IdentityResourceClient",
+                    ClientName = "Identity Resource Console Client",
+                    ClientSecrets =
+                    {
+                        new Secret("secretKey".Sha256())
+                    },
+                    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
+                    AllowedScopes = { "openid","profile" }
                 }
             };
         }
