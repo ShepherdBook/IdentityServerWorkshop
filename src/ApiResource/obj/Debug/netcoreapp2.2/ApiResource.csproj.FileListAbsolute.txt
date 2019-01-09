@@ -1,0 +1,14 @@
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/bin/Debug/netcoreapp2.2/ApiResource.deps.json
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/bin/Debug/netcoreapp2.2/ApiResource.runtimeconfig.json
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/bin/Debug/netcoreapp2.2/ApiResource.runtimeconfig.dev.json
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/bin/Debug/netcoreapp2.2/ApiResource.dll
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/bin/Debug/netcoreapp2.2/ApiResource.pdb
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/obj/Debug/netcoreapp2.2/ApiResource.csprojAssemblyReference.cache
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/obj/Debug/netcoreapp2.2/ApiResource.csproj.CoreCompileInputs.cache
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/obj/Debug/netcoreapp2.2/ApiResource.RazorAssemblyInfo.cache
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/obj/Debug/netcoreapp2.2/ApiResource.RazorAssemblyInfo.cs
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/obj/Debug/netcoreapp2.2/ApiResource.AssemblyInfoInputs.cache
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/obj/Debug/netcoreapp2.2/ApiResource.AssemblyInfo.cs
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/obj/Debug/netcoreapp2.2/ApiResource.RazorTargetAssemblyInfo.cache
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/obj/Debug/netcoreapp2.2/ApiResource.dll
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/ApiResource/obj/Debug/netcoreapp2.2/ApiResource.pdb
