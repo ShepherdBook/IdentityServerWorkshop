@@ -49,6 +49,21 @@ namespace IdentityProvider
                     },
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                     AllowedScopes = { "openid", "profile" }
+                },
+                new Client
+                {
+                    ClientId = "WebClient",
+                    ClientName = "Identity Resource Web Client",
+                    ClientSecrets =
+                    {
+                        new Secret("secretKey".Sha256())
+                    },
+                    RequireConsent = false,
+                    // where to redirect to after login
+                    RedirectUris = { "http://localhost:5020/signin-oidc" },
+                    PostLogoutRedirectUris = { "https://localhost:5020/signout-callback-oidc" },
+                    AllowedGrantTypes = GrantTypes.Implicit,
+                    AllowedScopes = { "openid","profile" }
                 }
             };
         }

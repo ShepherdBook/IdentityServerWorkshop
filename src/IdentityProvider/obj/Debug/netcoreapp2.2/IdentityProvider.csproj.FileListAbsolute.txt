@@ -31,3 +31,7 @@
 /Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityProvider/obj/Debug/netcoreapp2.2/IdentityProvider.dll
 /Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityProvider/obj/Debug/netcoreapp2.2/IdentityProvider.pdb
 /Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityProvider/obj/Debug/netcoreapp2.2/IdentityProvider.csproj.CopyComplete
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityProvider/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/Account/Logout.g.cshtml.cs
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityProvider/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/Account/_ViewImports.g.cshtml.cs
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityProvider/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/_ValidationScriptsPartial.g.cshtml.cs
+/Users/zachjohnston/Repos/IdentityServerWorkshop/src/IdentityProvider/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/_ViewImports.g.cshtml.cs
