@@ -10,7 +10,7 @@ namespace IdentityResourceClient
         private const string Authority = "http://localhost:5000";
         private const string ClientId = "IdentityResourceClient";
         private const string ClientSecret = "secretKey";
-        private const string ClientScope = "openid profile";
+        private const string ClientScope = "openid";
 
         private const string UserName = "admin@example.com";
         private const string UserPassword = "AwesomePassword4U!";

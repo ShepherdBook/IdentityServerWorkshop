@@ -48,7 +48,7 @@ namespace IdentityProvider
                         new Secret("secretKey".Sha256())
                     },
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
-                    AllowedScopes = { "openid","profile" }
+                    AllowedScopes = { "openid" }
                 }
             };
         }
