@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using IdentityModel.Client;
+using Newtonsoft.Json.Linq;
 
 namespace ConsoleClient
 {
@@ -10,7 +11,9 @@ namespace ConsoleClient
         private const string Authority = "http://localhost:5000";
         private const string ClientId = "ConsoleClient";
         private const string ClientSecret = "secretKey";
-        private const string ClientScope = "protectedApi";
+        private const string ClientScope = "apiResource";
+        private const string ApiResource = "http://localhost:5010";
+
 
         public static void Main(string[] args)
         {
@@ -41,6 +44,16 @@ namespace ConsoleClient
             if (tokenResponse.IsError) throw new ApplicationException(tokenResponse.Error);
             Console.WriteLine($"Identity Response Code: {(int)tokenResponse.HttpStatusCode} {tokenResponse.HttpStatusCode}");
             Console.WriteLine($"Token Response:\n{tokenResponse.Json}\n\n");
+
+            // call api
+            var apiClient = new HttpClient();
+            apiClient.SetBearerToken(tokenResponse.AccessToken);
+
+            var apiResponse = await apiClient.GetAsync($"{ApiResource}/api/values");
+            Console.WriteLine($"API Response Code: {(int) apiResponse.StatusCode} {apiResponse.StatusCode}");
+            if (!apiResponse.IsSuccessStatusCode) return;
+            var identityResponseContent = await apiResponse.Content.ReadAsStringAsync();
+            Console.WriteLine($"API Response:\n{JArray.Parse(identityResponseContent)}");
         }
     }
 }

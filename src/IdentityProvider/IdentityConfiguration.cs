@@ -33,7 +33,7 @@ namespace IdentityProvider
                         new Secret("secretKey".Sha256())
                     },
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
-                    AllowedScopes = { "protectedApi" }
+                    AllowedScopes = { "apiResource" }
                 }
             };
         }
